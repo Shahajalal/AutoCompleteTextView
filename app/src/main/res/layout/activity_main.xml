@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shahajalalsamrat.autocompletetextview.MainActivity">
+
+   <AutoCompleteTextView
+       android:textColorHint="#ff22"
+       android:textStyle="italic|bold"
+       android:textSize="20sp"
+       android:hint="Ente a country Name"
+       android:id="@+id/autocompletetextview"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+
+</LinearLayout>
